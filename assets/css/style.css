@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/bg.jpg);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(191, 191, 191);
+}
+
+button:hover {
+  color: red;
+}
+
+.container {
+  max-width: 640px;
+  margin: 90px auto;
+  background-image: url(../img/papel.jpg);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tarefas {
+  margin-left: 35px;
+  font-weight: bold;
+}
+
+p {
+  margin-left: 20px;
+}
